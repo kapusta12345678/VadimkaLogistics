@@ -1,0 +1,461 @@
+body {
+background: #393939;
+}
+
+.knopka1 {
+  color: #929292;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: absolute;
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+
+
+.knopka2 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: absolute;
+  margin-left: 240px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.knopka2::after { 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.knopka2:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.knopka3 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: absolute;
+  margin-left: 460px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.knopka3::after { 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.knopka3:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.knopka4 {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 20px;
+  position: absolute;
+  margin-left: 760px;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+
+.knopka4::after { 
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  display: block;
+  background: none repeat scroll 0 0 transparent;
+  height: 2px;
+  width: 0;
+  background: white;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+}
+
+.knopka4:hover::after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.glavn {
+margin-top: 100px;
+margin-left: 0px;
+}
+
+.clas1 {
+width: 200px;	
+height: 300px; 
+border: 2px solid #4A4A4A;
+border-radius: 20px;
+margin-left: 60px;
+margin-top: 50px;
+float: left;
+position: absolute;
+bacgound-color: #4A4A4A;
+}
+
+.text1 {
+line-height: 15px;
+text-align: center;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+font-size: 19px;
+}
+
+.kopabl {
+margin-left: 48px;
+margin-top: 20px;
+}
+
+.text2 {
+line-height: 15px;
+text-align: center;
+color: #929292;
+font-family: Arial;
+font-size: 16px;
+margin-top: 40px; 
+}
+
+.clas1:hover {
+background-color: #4A4A4A;
+}
+
+.clas2 {
+width: 200px;	
+height: 300px; 
+border: 2px solid #4A4A4A;
+border-radius: 20px;
+margin-left: 300px;
+margin-top: 50px;
+float: left;
+position: absolute;
+bacgound-color: #4A4A4A;
+}
+
+.text3 {
+line-height: 15px;
+text-align: center;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+font-size: 19px;
+}
+
+.gruzovik {
+margin-left: 48px;
+margin-top: 20px;
+}
+
+.text4 {
+line-height: 15px;
+text-align: center;
+color: #929292;
+font-family: Arial;
+font-size: 16px;
+margin-top: 40px; 
+}
+
+.clas2:hover {
+background-color: #4A4A4A;
+}
+
+.clas3 {
+width: 200px;	
+height: 300px; 
+border: 2px solid #4A4A4A;
+border-radius: 20px;
+margin-left: 540px;
+margin-top: 50px;
+float: left;
+position: absolute;
+bacgound-color: #4A4A4A;
+}
+
+.text5 {
+line-height: 15px;
+text-align: center;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+font-size: 19px;
+}
+
+.chat {
+margin-left: 41px;
+margin-top: 20px;
+}
+
+.text6 {
+line-height: 15px;
+text-align: center;
+color: #929292;
+font-family: Arial;
+font-size: 16px;
+margin-top: 40px; 
+}
+
+.clas3:hover {
+background-color: #4A4A4A;
+}
+
+.clas4 {
+width: 200px;	
+height: 300px; 
+border: 2px solid #4A4A4A;
+border-radius: 20px;
+margin-left: 780px;
+margin-top: 50px;
+float: left;
+position: absolute;
+bacgound-color: #4A4A4A;
+}
+
+.text7 {
+line-height: 15px;
+text-align: center;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+font-size: 19px;
+}
+
+.corobki {
+margin-left: 48px;
+margin-top: 20px;
+}
+
+.text8 {
+line-height: 15px;
+text-align: center;
+color: #929292;
+font-family: Arial;
+font-size: 16px;
+margin-top: 40px; 
+}
+
+.clas4:hover {
+background-color: #4A4A4A;
+}
+
+h2 {
+margin-top: 450px;
+margin-left: 60px;
+color: white;
+font-family: Arial;
+}
+
+.text9 {
+margin-left: 60px;
+font-family: Arial;
+font-size: 19px;
+color: #929292;
+}
+
+.text10 {
+color: #929292;
+margin-left: 60px;
+font-size: 19px;
+font-family: Trebuchet MS, sans-serif;
+}
+
+.fura {
+margin-left: 700px;
+position: absolute;
+margin-top: 500px;
+}
+
+.samik {
+margin-left: 600px;
+position: absolute;
+margin-top: 640px;
+}
+
+.kor {
+margin-left: 60px; 
+}
+
+.text11 {
+color: #929292;
+position: absolute;
+margin-left: 470px;
+font-size: 19px;
+margin-top: 60px;
+font-family: Trebuchet MS, sans-serif;
+}
+
+.text12 {
+margin-left: 60px;
+margin-top: 95px;
+font-size: 25px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+position: absolute;
+}
+
+.z1 {
+position: absolute;
+margin-top: 420px;
+}
+
+.text13 {
+position: absolute;
+margin-left: 470px;
+margin-top: 68px;
+font-size: 17px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+}
+
+.z2 {
+position: absolute;
+margin-top: 480px;
+}
+
+.text14 {
+position: absolute;
+margin-left: 470px;
+margin-top: 138px;
+font-size: 17px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+}
+
+.z3 {
+position: absolute;
+margin-top: 540px;
+}
+
+
+.text15 {
+position: absolute;
+margin-left: 470px;
+margin-top: 195px;
+font-size: 17px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+}
+
+
+.z4 {
+position: absolute;
+margin-top: 420px;
+margin-left: 340px;
+}
+
+
+.text16 {
+position: absolute;
+margin-left: 810px;
+margin-top: 67px;
+font-size: 17px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+}
+
+.z5 {
+position: absolute;
+margin-top: 480px;
+margin-left: 340px;
+}
+
+
+.text17 {
+position: absolute;
+margin-left: 810px;
+margin-top: 130px;
+font-size: 17px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+}
+
+.z6 {
+position: absolute;
+margin-top: 540px;
+margin-left: 340px;
+}
+
+.text18 {
+position: absolute;
+margin-left: 810px;
+margin-top: 190px;
+font-size: 17px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+}
+
+.text19 {
+margin-left: 60px;
+margin-top: 10px;
+font-size: 25px;
+font-family: Trebuchet MS, sans-serif;
+color: white;
+position: absolute;
+}
+
+.faesbyk {
+position: absolute;
+margin-top: 1080px;
+margin-left: 60px;
+}
+
+
+.twitter {
+position: absolute;
+margin-top: 1073px;
+margin-left: 155px;
+}
+
+.insta {
+position: absolute;
+margin-top: 1080px;
+margin-left: 112px;
+}
+
+.text20 {
+font-family: arial;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+color: #929292;
+margin-top: 1150px;
+margin-left: 60px;
+text-align: left;
+position: absolute;
+}
+nav {
+border-top: 2px solid white;
+margin-top: 280px;
+position: absolte;
+}
+
+
